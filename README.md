@@ -1,6 +1,8 @@
-# Hugo Boilerplate
+# Anything Arabic
 
-My own personal boilerplate for building simple static websites using [Hugo](https://gohugo.io/) and [Gulp](http://gulpjs.com/)
+A static website built using Hugo that will contain any resources we find helpful while learning the Arabic language.
+
+Created by (Kevin Muncie)[https://github.com/kmuncie] and (Ace Muncie)[https://github.com/akmuncie]
 
 To run this boilerplate you will need a content directory and initialize with `npm install`.
 
