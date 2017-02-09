@@ -45,6 +45,9 @@ gulp.task("js", function () {
         .pipe(gulp.dest('data/js'))
 })
 
+// Build everything
+gulp.task('build', ['scss', 'js', 'images']);
+
 // Watch asset folder for changes
 gulp.task('watch', ['scss', 'js', 'images'], function() {
    gulp.watch('src/scss/**/*', ['scss'])
@@ -53,4 +56,4 @@ gulp.task('watch', ['scss', 'js', 'images'], function() {
 });
 
 // Set default task
-gulp.task('default', ['watch']);
+gulp.task('default', ['build', 'watch']);
