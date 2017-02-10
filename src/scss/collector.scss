@@ -1,4 +1,21 @@
+@import "normalize";
+
+$font-arabic: 'Harmattan', Helvetica, Tahoma, serif;
+$font-english: 'Inconsolata', monospace;
+
 body {
-   background-color: red;
-   display: flex;
+   background-color: white;
+   font-family: $font-arabic;
+   margin: 0 10px;
+}
+
+rt {
+   font-family: $font-english;
+}
+
+.header {
+   text-align: center;
+   padding: 0 5px;
+   border-bottom: 1px solid grey;
+   margin-bottom: 10px;
 }
